@@ -1,10 +1,10 @@
 clusters:
-  sno-22:
+  sno-12:
     applicationNamespace: openshift-gitops
     namespace: ''
     destination: 'https://kubernetes.default.svc'
     project: default
     code:
-      repo: https://github.com/alvarolop/workshop-gitops-content-deploy.git
+      repo: https://github.com/oscarperez25/workshop-gitops-content-deploy.git
       path: cluster-addons/charts/bootstrap
-      target: sno-22-setup
+      target: sno-12-setup
