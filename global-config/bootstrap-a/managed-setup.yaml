@@ -10,7 +10,7 @@ spec:
     server: https://kubernetes.default.svc
   project: project-sno-22
   source:
-    repoURL: https://github.com/alvarolop/workshop-gitops-content-deploy.git
+    repoURL: https://github.com/oscarperez25/workshop-gitops-content-deploy.git
     targetRevision: sno-22-setup
     path: cluster-addons/cluster-addons-as/
   syncPolicy:
